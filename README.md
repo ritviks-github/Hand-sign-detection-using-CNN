@@ -10,7 +10,6 @@ This project implements a Convolutional Neural Network (CNN) to classify hand si
 - [Project Overview](#project-overview)
 - [Requirements](#requirements)
 - [Dataset](#dataset)
-- [Installation and Setup](#installation-and-setup)
 - [Model Architecture](#model-architecture)
 - [Training the Model](#training-the-model)
 - [Testing with New Images](#testing-with-new-images)
@@ -47,28 +46,6 @@ The dataset is divided into two main folders:
 - `Test`: Contains images for evaluating the model.
 
 You can upload the dataset to Kaggle or provide the path to your local dataset directory in the code.
-
-## Installation and Setup
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/hand-sign-language-cnn.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd hand-sign-language-cnn
-   ```
-
-3. Install the required libraries:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Upload the `Train` and `Test` dataset directories in the correct folder.
 
 ## Model Architecture
 
